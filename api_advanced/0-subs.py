@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+"""
+reddit api call
+"""
 import requests
 import sys
 
 
 def number_of_subscribers(subreddit):
+    """
+    main function
+    """
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {'User-Agent': 'Testapi/1.0 by Danjor667'}
     try:
