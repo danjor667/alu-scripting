@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-reddit api call
+making api calls to the reddit api endpoint
 """
 import requests
 import sys
